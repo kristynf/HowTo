@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bootstrap 4 Website Example</title>
+    <title>Kristyn Explains Embedding</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -10,17 +10,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>-->
   <!--  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>-->
     <style>
-        .fakeimg {
-            height: 200px;
-            background: #aaa;
-        }
+
     </style>
 </head>
 <body>
 
-<div class="jumbotron text-center" style="margin-bottom:0">
+<div class="jumbotron text-center" style="margin-bottom:0; background-image: url('images/trichrome.jpg');">
     <h1>Kristyn's Random Instruction Website</h1>
-    <p>All the hings you didn't know you needed to know how to do!</p>
+    <p>All the things you didn't know you needed to know how to do!</p>
 </div>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -43,49 +40,50 @@
     </div>
 </nav>
 
-<div class="container fluid" style="margin-top:30px">
-    <div class="row">
-        <div class="col-sm-4">
-            <h2>About Me</h2>
-            <h5>Photo of me:</h5>
-            <div class="fakeimg">Fake Image</div>
-            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-            <h3>Some Links</h3>
-            <p>Lorem ipsum dolor sit ame.</p>
+<div align="center" class="row">
+    <div class="col-lg">
+        <h2>Embedding</h2>
+        <div><img src="/images/embedded1024680.jpg" style="width:512px;height:340px;">
+            </div>
+        <p>Embedded Blocks Cooling on a Cold Plate at -20 Degrees Celsius</p>
+        <h3><strong>Histology Related Links</strong></h3>
             <ul class="nav nav-pills flex-column">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Active</a>
+                    <a class="nav-link" href="https://www.nsh.org/about/about-histotechnology">What is Histotechnology</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+                    <a class="nav-link" href="https://www.careerexplorer.com/careers/histotechnologist/">Would you be a good Histotech?</a>
                 </li>
             </ul>
-            <hr class="d-sm-none">
+            <hr class="d-lg-none">
         </div>
-        <div class="col-sm-8">
-            <h2>TITLE HEADING</h2>
-            <h5>Title description, Dec 7, 2017</h5>
-            <div class="fakeimg">Fake Image</div>
-            <p>Some text..</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <div align="center" class="col-sm-8">
+            <h2><strong>How to Embed Formalin-Fixed/Paraffin Infiltrated Tissue</strong></h2>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/NGu71P35O4Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             <br>
-            <h2>TITLE HEADING</h2>
-            <h5>Title description, Sep 2, 2017</h5>
-            <div class="fakeimg">Fake Image</div>
-            <p>Some text..</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <h2>Basic Embedding Steps</h2>
+            <ol>
+                <li>Gather the cassettes to be embedded and place them into holding compartment of the embedding center.</li>
+                <li>Ensure you have enough forceps and molds that are warming to complete the task at hand.</li>
+                <li>Ensure that the paraffin reservoir has enough melted paraffin</li>
+                <li><strong>Only have one cassette open at a time to avoid swapping samples</strong></li>
+                <li>Open a cassette and observe the size of the tissue. Retrieve and appropriately sized mold, ensuring you leave a few mm of space of paraffin around the sample</li>
+                <li>Dispense a small amount of paraffin into the mold and place the tissue, cut or inked surface down.</li>
+                <li>Use your forceps or a tamper to ensure that your tissue is flat against the mold surface and move it over to the heat sink or cold plate to begin the process of paraffin solidification</li>
+                <li>Once your tissue is firmly in place, Place the cassette lid on top of the mold, this will serve as the ID, and dispense more paraffin on top to fill the top of the cassette.</li>
+                <li>Move the cassette over to the cold plate</li>
+                <li>Repeat this process until all your cassettes are embedded. A normal histotech should be able to embed at a rate of 60-70 cassettes an hour at a minimum.</li>
+                <li>Once the cassettes have completely solidified, they can be removed from the basemold and trimmed of excess paraffin. They are then ready for microtomy.</li>
+            </ol>
+            <p></p>
         </div>
     </div>
 </div>
 
-<div class="jumbotron text-center" style="margin-bottom:0">
-    <p>Footer</p>
+<div class="jumbotron text-center" style="margin-bottom:0; background-image: url('images/alcianblue.jpg');">
+
 </div>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
